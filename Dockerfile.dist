@@ -1,0 +1,5 @@
+FROM centos
+MAINTAINER Your Name <yourname@xxx.com>
+RUN yum install -y git
+CMD ["/bin/bash"]
+
